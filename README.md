@@ -1,4 +1,4 @@
-# :bulb: multiduplicut
+# :bulb: multiduplicut : optimize wordlists-based password cracking methods chaining
 
 **MultiDuplicut** is a bash wrapper that use the fantastic [Duplicut](https://github.com/nil0x42/duplicut) project, but works with **multi-huge-wordlists files** without re-ordering their content, and quickly !
 
