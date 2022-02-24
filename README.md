@@ -64,14 +64,14 @@ _The following **multiduplicut** output was done on a simple Kali laptop, with 8
 ```
 root@x:~/work$ ls -la
 total 8035660
-drwxr-xr-x 2 root root       4096 24 févr. 13:03 .
-drwxr-xr-x 5 root root       4096 24 févr. 12:06 ..
--rwxr-xr-x 1 root root 5396405697 24 févr. 11:43 515_have-i-been-pwned-v2_found.txt
--rwxr-xr-x 1 root root   15073803 24 févr. 11:43 darkc0de.txt
--rwxr-xr-x 1 root root   38352882 24 févr. 11:43 facebook-firstnames.txt
--rwxr-xr-x 1 root root       4229 24 févr. 13:03 multiDuplicutOrder.sh
--rwxr-xr-x 1 root root  139921524 24 févr. 11:43 rockyou.txt
--rwxr-xr-x 1 root root 2638722220 24 févr. 11:44 uniqpassv14.txt
+drwxr-xr-x 2 root root       4096 12 févr. 13:03 .
+drwxr-xr-x 5 root root       4096 12 févr. 12:06 ..
+-rwxr-xr-x 1 root root 5396405697 12 févr. 11:43 515_have-i-been-pwned-v2_found.txt
+-rwxr-xr-x 1 root root   15073803 12 févr. 11:43 darkc0de.txt
+-rwxr-xr-x 1 root root   38352882 12 févr. 11:43 facebook-firstnames.txt
+-rwxr-xr-x 1 root root       4229 12 févr. 13:03 multiDuplicutOrder.sh
+-rwxr-xr-x 1 root root  139921524 12 févr. 11:43 rockyou.txt
+-rwxr-xr-x 1 root root 2638722220 12 févr. 11:44 uniqpassv14.txt
 ```
 
 Then, simply launch the `./multiDuplicutOrder.sh` script :
@@ -108,7 +108,11 @@ Then just run MultiDuplicut script.
         [+] [515_have-i-been-pwned-v2_found.txt] (5396405697 B | 496692948 words)
 [*] 4 temp-files will be created.
 [*] Full-concatenation of wordlists with separators started into FULL.CSyXKgg.tmp.
-[*] Run full-duplicut over full-concatened-wordlist FULL.CSyXKgg.tmp.
+[*] Run full-duplicut over full-concatened-wordlist FULL.CSyXKgg.tmp (press ENTER to see status)
+time: 0:00:19:38 66.44% (ETA: Thu Feb 12 14:31:11 2022)  step 2/3: cleaning chunk 3/4 (task 6/10) ...
+time: 0:00:19:38 66.46% (ETA: Thu Feb 12 14:31:10 2022)  step 2/3: cleaning chunk 3/4 (task 6/10) ...
+time: 0:00:22:07 84.61% (ETA: Thu Feb 12 14:29:16 2022)  step 2/3: cleaning chunk 4/4 (task 9/10) ...
+time: 0:00:25:07 94.83% (ETA: Thu Feb 12 14:35:30 2022)  step 3/3: removing tagged lines ...
 [*] Regenerate initial wordlists multiduplicuted.
         [*] Value [TKb4WIimns50BxEyW8WuQljmR6nPwJsVVKi5XtELSJgkIRrehSLlwCXhxEYTKGaPMQLJnrYrdgDzmYy8bunSrUR9nTZRumbCdpTH] found at line 1471061 !
         [*] Value [Wvd4jMqfrvdHxTSepMxheNl0d5Pfw7TrqwbKmus6hT80dc9d04Cbk5UQVl3zHt0ShT9eRhEYKducxnxZWXKfEvYb8vaRBTRdWuzd] found at line 5656119 !
