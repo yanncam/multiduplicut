@@ -78,6 +78,27 @@ Then, simply launch the `./multiDuplicutOrder.sh` script :
 
 ```
 root@x:~/work$ ./multiDuplicutOrder.sh
+
+  __  __       _ _   _ _____              _ _            _
+ |  \/  |     | | | (_)  __ \            | (_)          | |
+ | \  / |_   _| | |_ _| |  | |_   _ _ __ | |_  ___ _   _| |_
+ | |\/| | | | | | __| | |  | | | | | '_ \| | |/ __| | | | __|
+ | |  | | |_| | | |_| | |__| | |_| | |_) | | | (__| |_| | |_
+ |_|  |_|\__,_|_|\__|_|_____/ \__,_| .__/|_|_|\___|\__,_|\__|
+                                   | |
+                                   |_|    v 1.0
+Duplicut (https://github.com/nil0x42/duplicut) wrapper for
+Multi (huge) wordlists, fast deduplication and keep order.
+
+Credits :
+        - Duplicut @nil0x42
+        - MultiDuplicut wrapper @ycam (Yann CAM / asafety.fr)
+
+How to use ?
+Install Duplicut, place your wordlists with *.txt extension
+into a new folder and add the MultiDuplicut script in it.
+Then just run MultiDuplicut script.
+
 [*] 5 wordlists identified !
 [*] Each wordlist will be cleaned in the following order (only first word appearence in the first wordlist will be kept).
         [+] [darkc0de.txt] (15073803 B | 1471063 words)
