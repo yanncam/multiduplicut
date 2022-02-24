@@ -132,5 +132,9 @@ It's why the [Duplicut](https://github.com/nil0x42/duplicut) exists, in highly o
 But the Duplicut tool work on one, and only one file at a time.
 **multiduplicut** is a simple bash-wrapper to use the Duplicut tool on several files and do the same job cross-wordlists.
 
+## :beers: Credits
 
+- Thanks to @nil0x42 for very optimized tool [Duplicut](https://github.com/nil0x42/duplicut).
+- Thanks to lmalle, my duck debugger for this wrapper.
+- GreetZ to all the Le££e team :)
 
