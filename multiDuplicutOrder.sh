@@ -11,7 +11,7 @@ echo "
 Duplicut (https://github.com/nil0x42/duplicut) wrapper for
 Multi (huge) wordlists, fast deduplication and keep order.
 
-Credits :
+Credits:
         - Duplicut @nil0x42
         - MultiDuplicut wrapper @ycam (Yann CAM / asafety.fr)
 
