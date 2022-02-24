@@ -1,4 +1,4 @@
-# multiduplicut
+# :bulb: multiduplicut
 
 **MultiDuplicut** is a bash wrapper that use the fantastic [Duplicut](https://github.com/nil0x42/duplicut) project, but works with **multi-huge-wordlists files** without re-ordering their content, and quickly !
 
@@ -24,7 +24,7 @@ But when you chain many password cracking wordlists-based attacks, several wordl
 
 So the **multiduplicut** wrapper was born!
 
-## How it works?
+## :mag: How it works?
 
 - **multiduplicut** identifies wordlists in the current directory and sort each file (not their content) from the smallest size to the biggest (the smallest wordlist is also the fastest and most relevant for common words).
 - **multiduplicut** concatenates all content of all worlists ordered-by-size in one unique temp file (needs disk space!) and add some random strings as marker to seperate in this unique file each wordlist content. Content/words order ISN'T changed!
@@ -32,7 +32,7 @@ So the **multiduplicut** wrapper was born!
 - Then, **multiduplicut** splits this huge-temp-unique-wordlist from each marker (random string) to re-create initial wordlist's file (with the `*.multiduplicut` suffix).
 - Finally, **multiduplicut** displays some statistics about optimization done.
 
-## Installation
+## :hammer: Installation
 
 ```
 # First, deploy duplicut tool:
@@ -45,7 +45,7 @@ cd ..
 git clone https://github.com/yanncam/multiduplicut/
 ```
 
-## Demonstration / Example / How to use?
+## :fire: Demonstration / Example / How to use?
 
 _The following **multiduplicut** output was done on a simple Kali laptop, with 8GB of RAM and Intel(R) Core(TM) i7-4500U CPU @ 1.80GHz._
 
@@ -119,14 +119,14 @@ The work on these 5 wordlists, for a total of 7847MB (7,8GB) take only 44 min an
 - **758440805 words initially reduce to 682114375 (-76326430) => Optimization 11%**
 - **Full process on 44 min 13 sec on a standard laptop!**
 
-## To go deeper...
+## :toolbox: To go deeper...
 
 Deduplicate files between them is a common issue. There is several technics already identified (see this [StackOverflow](https://stackoverflow.com/questions/4366533/how-to-remove-the-lines-which-appear-on-file-b-from-another-file-a) topic as example).
 
 But, depending of the context, the deduplicate process can be very long (several hours / days), generate OOM errors, force to sort the content of the files before, etc.
 
 There are multiple tools, POSIX command and binaries that _appear_ doing the job, command like `diff`, `awk`, `grep`, `sed`, `sort`, `comm`, `python`...
-But in most cases, these technics produce an Out-of-memory error on very huge files, or require the files to be sorted...
+But in most cases, these technics produce an Out-of-memory error on very huge files, or require the files to be sorted. My initial tests based on these kind of tools/commands worked, but over several hours or even days...
 
 It's why the [Duplicut](https://github.com/nil0x42/duplicut) exists, in highly optimized C to address this very specific need !
 But the Duplicut tool work on one, and only one file at a time.
